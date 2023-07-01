@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,51 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.App {
+  text-align: center;
+  font-family: sans-serif; 
 }
+.card{
+  border: 1px solid black;
+  margin: 12px;
+  width: 250px;
+  height:280px;
+  display: flex;
+   display: inline-block; 
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: grey ; */
+  padding: 15px;
+  border-radius: 5%;
+}
+img{
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+.products{
+  display:flex;
+  flex-wrap:wrap;
+}
+.nave{
+  float: left;
+  width:100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-around;
+  align-items: right;
+  padding: 2px;
+  border: 2px solid rgb(55, 55, 134);
+  background-color: rgb(163, 186, 207);
+  text-decoration: none;
+}
+.cart{
+  padding: 5px; 
+  border: solid rgb(55, 55, 134);
+  border-radius: 5px;
+  float: right;
+
+}
+
